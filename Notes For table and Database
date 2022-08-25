@@ -1,0 +1,12 @@
+Before testing in your system, Edit connectionString element in Web.config file, to change database name.
+
+1. Create database SQL Query:- create database sentientgeeks
+
+2. Create table query for table used in this Program:- CREATE TABLE [dbo].[Users](
+	                                                                  [ID] [int] IDENTITY(1,1) NOT NULL,
+	                                                                  [UserName] [nvarchar](255) NOT NULL,
+	                                                                  [Password] [nvarchar](255) NOT NULL,
+	                                                                  [Role] [nvarchar](155) NULL,
+                                                            )
+
+
